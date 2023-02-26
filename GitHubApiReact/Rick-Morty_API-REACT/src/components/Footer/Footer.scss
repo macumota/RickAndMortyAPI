@@ -1,0 +1,25 @@
+.footer{
+    margin-top: 175px;
+}
+.divGithubs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.git{
+    padding: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    color: aqua;
+  -webkit-text-stroke: 0.5px #cfff04;
+  &:hover{
+    box-shadow: 0 0 8px #cfff04;
+    border-radius: 10px;
+  }
+}
+.coments{
+    padding-top: 5px;
+    border-top: #cfff04 solid 3px;
+    font-size: 20px;
+    color: white;
+}

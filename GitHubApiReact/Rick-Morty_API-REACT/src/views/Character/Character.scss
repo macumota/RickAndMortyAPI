@@ -1,0 +1,70 @@
+.list{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+.characterDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/vortice.png');
+    background-color: #66BA4F;
+    background-position: center;
+    width: 384.5px;
+    height: 388.5px;
+    background-color: #66BA4F;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px #448C3F;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    & img{
+        border: solid black 1px;
+        border-radius: 100px;
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 0 30px black;
+        margin-bottom: 10px;
+    }
+    & p{
+        color: aqua;
+        background-color: black;
+        border-radius: 10px;
+        padding: 3px;
+        margin: 5px;
+        -webkit-text-stroke: 0.3px #cfff04;
+        box-shadow: 0 0 5px black;
+    }
+    & .Alive{
+        background-color: white;
+        -webkit-text-stroke: 0.3px rgb(0, 60, 255);
+        color: rgb(0, 60, 255);
+        box-shadow:inset 0px 0px 5px 1.25px rgb(0, 60, 255);
+    }
+    & .Dead{
+        background-color: white;
+        -webkit-text-stroke: 0.3px red;
+        color: red;
+        box-shadow:inset 0px 0px 5px 1.25px red;
+    }
+    & .unknown{
+        background-color: white;
+        -webkit-text-stroke: 0.3px grey;
+        color: grey;
+        box-shadow:inset 0px 0px 5px 1.25px grey;
+    }
+}
+.personaje{
+    list-style: none;
+    background-color: aqua;
+    box-shadow: 0 0 8px #cfff04;
+    -webkit-text-stroke: 0.8px black;
+    border: 2px solid #cfff04;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 13px;
+    width: calc(100% - 30%);
+    margin-bottom: 8px;
+}

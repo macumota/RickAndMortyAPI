@@ -1,0 +1,10 @@
+.none{
+    display: none;
+}
+.divButtons{
+    margin: auto;
+    width: calc(100% - 30%);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 18%;
+}
